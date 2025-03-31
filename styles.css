@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #122245;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    border-bottom: solid 5px #333;
+
+}
+.email,
+.phone{
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.user{
+  
+    margin-bottom: 2px;
+}
+.navbar{
+    background-color: #ff9711;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    color: #333;
+    padding: 0 70px;
+    border-bottom: solid 5px #333;
+}
+.user1{
+    margin: -3;
+    padding: -3;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+
+.profilepic{
+    width: 520px;
+    height: 300px;
+    border-radius: 40px;
+    border: solid 2px #ff9711;
+}
+
+.menu li{
+    list-style: none;
+
+}
+.menu li:hover{
+    color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+.img{
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    max-width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.icon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border: solid 2px #333
+
+}
+
+.about {
+    margin: 60px;
+    display: flex;
+    color: white;
+    width: 75%;
+
+}
+.skills{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: #ff9711;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.311);
+}
+
+.skill:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+    color: #ff9711;
+    rotate: 1deg;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.311);
+
+}
+/*project section*/
+
+.sname{
+    color: #ff9711;
+    width: 75%;
+    font-size: 30px;
+}
+
+.sna1{
+ margin-right: 350px;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 75%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+.projectD{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 30px;
+}
+.recomenbox1{
+    background-color: #ff9711;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.311);
+
+}
+
+.recomenbox1:hover{
+    border: solid 3px #333;
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.recomenbox2{
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.recomendations{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    min-height: 170px;
+    max-height: 5000px;
+    flex-wrap: wrap;
+
+}
+.recomendbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    width: 350px;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.311);
+    flex-wrap: wrap;
+
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 2px #ff9711;
+}
+.form{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff9711;
+    border-radius: 20px;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    transform: scale(1.8);
+}
+.backtop a:hover {
+    transform: scale(2.1);
+}
+.inputt{
+    width: 300px;
+    height: 15px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: solid 2px #333
+    
+}
+
+.txtare{
+    width: 800px;
+    height: 120px;
+    border-radius: 20px;
+    border: solid 2px #333;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+.buttonn{
+
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    border: solid 2px #f4f4f4;
+    background-color: #122245;
+    color: #fff;
+    font-size: 15px;
+}
+
+.buttonn:hover{
+    background-color: #f4f4f4;
+    border: solid 2px #122245;
+    color: #ff9711;
+    
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.311);
+    transition: 0.8s;
+
+
+
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff9711;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    font-weight: bold;
+    z-index: 1000;
+    display: none;
+}
+
+.popup.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .about, .skills, .project, .projectD, .sname {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .projectD {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .recomenbox1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .profilepic {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer{
+        height: 50px;
+        width: 100%;
+    }
+}
